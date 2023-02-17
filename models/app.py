@@ -34,7 +34,7 @@ def predict():
 
     output = round(prediction[0]) #, 2)
 
-    return render_template('new.html', prediction_text='Player Should Be Scoring {} Points Per Game'.format(output))
+    return render_template('new.html', prediction_text='That home will be sold for {}'.format(output))
 
 
 #When the Python interpreter reads a source file, it first defines a few special variables. 
