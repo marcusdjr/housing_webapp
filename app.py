@@ -32,9 +32,9 @@ def predict():
     features = [np.array(int_features)]  #Convert to the form [[a, b]] for input to the model
     prediction = model.predict(features)  # features Must be in the form [[a, b]]
 
-    output = round(prediction[0]) #, 2)
+    output = np.round(prediction[0]) #, 2)
 
-    return render_template('new.html', prediction_text='That home will be sold for {}'.format(output))
+    return render_template('new.html', prediction_text=' That home will be sold for ${}'.format(output[0]))
 
 
 #When the Python interpreter reads a source file, it first defines a few special variables. 
