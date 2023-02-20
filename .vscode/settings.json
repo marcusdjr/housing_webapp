@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/b946dec0-4d8d-4792-a260-7365e62a6e91/AppServices/subscriptions/b946dec0-4d8d-4792-a260-7365e62a6e91/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/housing-webapp",
-    "appService.deploySubpath": "."
-}
